@@ -1,0 +1,85 @@
+.header {
+  display : flex;
+  background-color: black;
+  justify-content: space-between;
+  
+ 
+
+}
+.title{
+  display: flex;
+  padding: 5px;
+
+  flex-direction: row;
+  font-size: x-large;
+}
+
+.menu{
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 15px;
+  color: white;
+
+}
+
+.menus{
+  display: flex;
+  font-size: 1.8rem;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0;
+
+  
+}
+
+.main {
+  display: flex;
+
+  height:auto;
+}
+.presentation{
+  display: grid;
+  width: 100%;
+
+  grid-template-rows: 20% 80%;
+}
+.presentation_title{
+  display: flex;
+ 
+  min-width: 500px;
+  min-height: 60px;
+  
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto ;
+  
+  align-items: center;
+  justify-content: center;
+  
+ 
+  font-size: 1.8rem;
+  background-color: hsl(247, 8%, 42%);
+  border-radius: 20px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+
+}
+
+.presentation_image{
+  display: flex;
+  background-color: rgb(222, 216, 216);
+  min-width:100px ;
+  min-height:100px ;
+  width: auto ;
+  height: auto ;
+  border: 50px solid white ;
+  border-radius: 20px;
+  margin: auto ;
+  justify-content: center;
+  align-items: center;
+ 
+
+}
+.produits_slider{
+  background-color: rgb(222, 216, 216);
+}

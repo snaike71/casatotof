@@ -1,0 +1,96 @@
+
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  margin: 0;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+p{
+  margin: 2px;
+  
+}
+header{
+  align-items: center;
+ 
+}
+
+
+img{
+
+max-width:100%
+
+}
+
+@keyframes animation_slide {
+0% {left:0}
+20%{left:0}/*image1*/
+
+25%{left:-100%}
+45%{left:-100%}/*image2*/
+
+50%{left:-200%}
+70%{left:-200%}/*image3*/
+
+75%{left:-300%}/*image4*/
+95%{left:-300%}
+
+100%{left:-400%}/*image1*/}
+
+@-webkit-keyframes animation_slide {
+0% {left:0}
+20%{left:0}/*image1*/
+
+25%{left:-100%}
+45%{left:-100%}/*image2*/
+
+50%{left:-200%}
+70%{left:-200%}/*image3*/
+
+75%{left:-300%}/*image4*/
+95%{left:-300%}
+
+100%{left:-400%}/*image1*/}
+
+
+figure img{
+
+pointer-events:none;
+min-width:100px;
+
+
+
+float:left;
+
+
+}
+
+figure{
+
+margin: 0;
+position: relative;
+width: 500%;
+height: 100%;
+animation: 30s animation_slide infinite; 
+
+
+}
+
+
